@@ -4,3 +4,7 @@
 
 ## 컨버전 서비스 - ConversionService
 * 다양한 Converter를 등록하여 사용
+
+## 스프링에 Converter 적용하기
+* WebConfig를 통해 Converter를 넣은 ConversionService등록
+* 컨트롤러의 @RequestParam등에서 타입 변환시에 Converter가 자동으로 사용됨
