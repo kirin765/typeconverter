@@ -8,3 +8,6 @@
 ## 스프링에 Converter 적용하기
 * WebConfig를 통해 Converter를 넣은 ConversionService등록
 * 컨트롤러의 @RequestParam등에서 타입 변환시에 Converter가 자동으로 사용됨
+
+## 뷰 템플릿에 컨버터 적용하기
+* thymeleaf에서 ${{number}}, th:field 등으로 자동으로 객체 -> 문자로 변환
