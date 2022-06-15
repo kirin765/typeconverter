@@ -15,3 +15,6 @@
 ## 포맷터 - Formatter
 * 객체 <-> 문자 + Locale(현지화)
 * parse(), print()
+
+## 포맷터를 지원하는 컨버전 서비스
+* DefaultFormattingConversionService에서 Converter, Formatter등록하여 사용 가능
