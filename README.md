@@ -18,3 +18,6 @@
 
 ## 포맷터를 지원하는 컨버전 서비스
 * DefaultFormattingConversionService에서 Converter, Formatter등록하여 사용 가능
+
+## 포맷터 적용하기
+* WebConfig에 addFormatter()를 통해 등록후 글로벌하게 사용 가능
