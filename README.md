@@ -11,3 +11,7 @@
 
 ## 뷰 템플릿에 컨버터 적용하기
 * thymeleaf에서 ${{number}}, th:field 등으로 자동으로 객체 -> 문자로 변환
+
+## 포맷터 - Formatter
+* 객체 <-> 문자 + Locale(현지화)
+* parse(), print()
